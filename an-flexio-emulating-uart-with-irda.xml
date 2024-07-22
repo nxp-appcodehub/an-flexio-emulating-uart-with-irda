@@ -1,0 +1,25 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" id="an-flexio-emulating-uart-with-irda" type="app_note" format="projectfile" versionSchema="1.0.0" name="FlexIO emulating UART with IRDA">
+    <display_title>
+        How to emulate UART with IRDA by using FlexIO
+    </display_title>
+    <overview>
+        <![CDATA[This software accompanies application note[ANxxx], which describes how to implement emulating UART with IRDA by using FlexIO.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXC242"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="gpio"></peripheral>
+        <peripheral name="uart"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="industrial"></category>
+        <category name="ui"></category>
+    </categories>
+</data:item>
